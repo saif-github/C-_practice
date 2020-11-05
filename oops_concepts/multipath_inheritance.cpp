@@ -2,6 +2,8 @@
 
 A derived class with two base classes and
 these two base classes have one common base class is called multipath inheritance
+
+An ambiguity can araise in this type of inheritance
 */
 
 //C++ program to demonstrate ambiguity in multipath inheritance
@@ -36,6 +38,7 @@ int main()
 {
   ClassD obj;
 
+//Avoiding ambiguity using scope resolution operator
   obj.ClassB::a = 19;
   obj.ClassC::a = 23;
 
