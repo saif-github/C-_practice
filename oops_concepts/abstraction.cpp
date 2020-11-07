@@ -1,6 +1,6 @@
 /*
 Data abstraction means displaying essential information and hidding the details.
-
+in other words showing only the necessary things.
 */
 
 #include<iostream>
