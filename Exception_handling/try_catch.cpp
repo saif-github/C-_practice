@@ -22,7 +22,7 @@ int main(int argc, char const *argv[]) {
   catch(int x){
     std::cout << "exception cought" << '\n';
   }
-  
+
   std::cout << "After catch (Will be executed)" << '\n';
   return 0;
 }
