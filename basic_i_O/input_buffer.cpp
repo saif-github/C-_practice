@@ -15,7 +15,7 @@ int main()
 
   cin >> a;
 
-//discards the input buffer and initial whilte spaces of the string
+//discards the input buffer and initial white spaces of the string
 //cin>>ws;   //it works after uncommenting this
 
   //Get input from user -

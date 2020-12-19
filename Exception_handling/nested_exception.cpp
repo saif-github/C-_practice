@@ -8,12 +8,12 @@ int main()
           throw 20;
         }
         catch(int n){
-          std::cout << "Handle partially " << '\n';
+          std::cout << "Handle partially "<< n << '\n';
           throw; //Re-throwing an exception
         }
     }
     catch(int n){
-      std::cout << "Handle partially " << '\n';
+      std::cout << "Handle partially rethrown " << n << '\n';
     }
   return 0;
 }

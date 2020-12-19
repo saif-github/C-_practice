@@ -19,7 +19,7 @@ public:
     }
   }
   ~Test(){
-    std::cout << "Destructo object number "<< id << '\n';
+    std::cout << "destructor object number "<< id << '\n';
   }
 };
 

@@ -15,7 +15,7 @@ int main(int argc, char const *argv[]) {
     if(x < 0)
     {
       throw x;
-      std::cout << "After trow (never executes)" << '\n';
+      std::cout << "After throw (never executes)" << '\n';
     }
   }
 

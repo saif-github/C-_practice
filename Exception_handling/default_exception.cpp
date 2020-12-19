@@ -1,6 +1,6 @@
 /*
 Ex:
-An int is trown as an exception,but there is no catch block for int,
+An int is thrown as an exception,but there is no catch block for int,
 so catch(...) block will be executed.
 */
 

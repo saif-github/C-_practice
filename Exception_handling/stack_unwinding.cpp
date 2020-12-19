@@ -1,5 +1,5 @@
 /*
-The process of removing function entries from th function call stack at the runtime
+The process of removing function entries from the function call stack at the runtime
 is called stack unwinding.
 stack unwinding is generally related to exception Handling.
 
