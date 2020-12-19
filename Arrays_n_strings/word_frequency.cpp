@@ -1,11 +1,12 @@
 //C++ program to demonstrate use of stringstream
-//to count the frequency of count_words
+//to count the frequency of words
+
 #include <bits/stdc++.h>
 using namespace std;
 
 void print_frequency(string st)
 {
-  //each word is mapped to its printFrequency
+  //each word is mapped to its Frequency
   map<string,int> FW;
 
   //Used to breaking words
@@ -16,7 +17,7 @@ void print_frequency(string st)
   FW[Word]++;
 
   map<string,int>::iterator m;
-  
+
   for(m=FW.begin();m!=FW.end();m++)
   cout << m->first << "->"
       << m->second << "\n";
