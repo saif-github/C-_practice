@@ -18,7 +18,7 @@ class increment
 private:
   int num;
 public:
-  increment (int n) : num(n){ }
+  increment (int n) : num(n){ }    // same as increment (int n){num = n;}
 
   //This operator overloading enables calling
   //operator function () on objects of increment

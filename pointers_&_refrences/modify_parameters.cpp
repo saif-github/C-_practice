@@ -1,3 +1,5 @@
+//A reference is an alias, or an alternate name to an existing variable.
+
 #include <iostream>
 using namespace std;
 

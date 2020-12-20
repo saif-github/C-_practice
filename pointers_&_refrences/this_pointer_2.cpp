@@ -29,7 +29,7 @@ public:
 int main()
 {
   Test obj1(5,5);
-
+  obj1.print();
   //Chained function calls. All calls modify the same object
   //as the same object is returned by reference
   obj1.setx(10).setY(20);

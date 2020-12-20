@@ -1,6 +1,11 @@
 /*
 The pointer variable has multiple levels of indirection i.e. single pointer,
 double pointer,triple pointer.where as , the reference variable has only single level of indirection.
+
+ Once a reference is created, it cannot be later made to reference another object; it cannot be reseated.
+ This is often done with pointers.
+
+ References cannot be NULL.
 */
 
 #include<iostream>
