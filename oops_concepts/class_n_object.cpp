@@ -17,7 +17,7 @@ class Phone{
 public:
   Phone(string name,string size){
     p_name = name;
-    p_name = size;
+    p_size = size;
   }
   //Functionality
   void makecall(){
@@ -30,8 +30,8 @@ public:
 };
 
 int main(){
-  cout<<endl; 
-Phone iphone("Iphone_X","1000x500");
+  cout<<endl;
+  Phone iphone("Iphone_X","1000x500");
   iphone.makecall();
   iphone.receiveCall();
 
@@ -42,5 +42,6 @@ Phone iphone("Iphone_X","1000x500");
   gPixel.receiveCall();
 
   cout<<endl;
+  
   return 0;
 }
