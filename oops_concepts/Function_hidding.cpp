@@ -35,6 +35,7 @@ int main(){
   hide_obj.fun('a');
 
   //hide_obj.fun(); //void function conflicts with function in derived class
+  //hide_obj.Base::fun();
 
   return 0;
 }
