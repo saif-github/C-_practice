@@ -1,6 +1,6 @@
 /*
 Consider a class derived from another class with default constructor, or
-a class containing another class object with default onstructor. The compiler needs to insert code to call
+a class containing another class object with default constructor. The compiler needs to insert code to call
  the default constructor of base class.
  */
 
@@ -35,7 +35,6 @@ a class containing another class object with default onstructor. The compiler ne
    //compiler defines default constructor of C , and
    //insert stub to call A constructor
 
-   //Compiler won't initialize any data of A
    C()
    {
      std::cout << "C constructor" << '\n';
@@ -47,7 +46,6 @@ a class containing another class object with default onstructor. The compiler ne
    //compiler defines default constructor of D, and
    //insert stub to call A constructor
 
-   //Compiler won't initialize any data of A
    D()
    {
      std::cout << "D constructor" << '\n';
