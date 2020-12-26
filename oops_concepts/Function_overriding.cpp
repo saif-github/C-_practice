@@ -12,10 +12,14 @@ using namespace std;
 class base
 {
 public:
+  //Explicit declarationa of member function print();
+  //virtual void print();
+
   virtual void print()
   {
     std::cout << "print base class" << '\n';
   }
+
   void show()
     {
       std::cout << "show base class" << '\n';
@@ -37,6 +41,14 @@ public:
     std::cout << "show derived class" << '\n';
   }
 };
+
+/*
+//explicitly defined for print()
+void base::print()
+{
+  std::cout << "print base class" << '\n';
+}
+*/
 
 int main()
 {
