@@ -1,5 +1,5 @@
 /*
-The private class is similar to the private class only difference is the class members
+The protected class is similar to the private class only difference is the class members
 declared as protected can be accesses by any subclass of that class aswell
 */
 
