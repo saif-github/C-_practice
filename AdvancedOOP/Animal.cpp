@@ -8,7 +8,7 @@
     Create attribute length for the Snake class.
     Create a derived class Cat with attribute height that will inherit the base class Animal.
     Create getters and setters for all attributes in all classes.
-    In the main() function instantiate classes Snake and Cat and initialize their specific 
+    In the main() function instantiate classes Snake and Cat and initialize their specific
     attributes and their common attributes that are in the base class.
 */
 
@@ -18,7 +18,7 @@ class Animal {
   protected:
     std::string color;
     std::string name;
-    int age;  
+    int age;
   // Define public setters and getters
   public:
     void setColor(std::string Color) {
@@ -54,13 +54,13 @@ class Snake : public Animal {
     float getLength() {
       return length;
     }
-};    
+};
 
 // Define subclass Cat
 class Cat : public Animal {
   // Define private attribute height
   private:
-    float height;  
+    float height;
   // Define public getter and setter
   public:
     void setHeight(float Height) {
@@ -71,7 +71,7 @@ class Cat : public Animal {
     }
 };
 
-// In the main() function instantiate classes Snake and Cat and initialize 
+// In the main() function instantiate classes Snake and Cat and initialize
 // their specific attributes and their common attributes that are in the base class.
 int main() {
     Cat cat;
@@ -80,5 +80,10 @@ int main() {
     cat.setAge(5);
     cat.setName("Bob");
 
+    snake.setAge(100);
+    snake.setName("Annaconda");
+    snake.setLength(200.0);
+
     std::cout << "Cat's age and name: " << cat.getAge() << " " << cat.getName() << "\n";
+    std::cout << "Snake's age and name: " << snake.getAge() << " " << snake.getName() << "\n";
 }
