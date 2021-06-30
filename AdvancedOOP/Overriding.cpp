@@ -4,12 +4,12 @@ using std::cout;
 
 class Base_Class {
     public:
-        virtual void PrintVirtual () 
+        virtual void PrintVirtual ()
         {
           std::cout << "This is a message from the base class!!" << "\n";
         }
 
-        void Print () 
+        void Print ()
         {
           std::cout << "This displays the base class." << "\n";
         }
@@ -19,19 +19,19 @@ class Derived_Class : public Base_Class {
   public:
       //print () is already virtual function in derived class, we could also declared  as virtual
       //void print () explicitly
-      void PrintVirtual ()  
+      void PrintVirtual ()
       {
         std::cout << "This is a message from the derived class!!" << "\n";
       }
 
-      void Print () 
+      void Print ()
       {
         std::cout << "This displays the derived class." << "\n";
       }
 };
 
 
-int main()  
+int main()
 {
     Base_Class *pointer;
     Derived_Class der;
