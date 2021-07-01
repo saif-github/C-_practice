@@ -1,11 +1,19 @@
+/*
+Exercise: Comparison Operator
+
+This lab demonstrates how a simple comparison between two variables of unknown type can work using templates.
+In this case, by defining a template that performs a comparison using the > operator,
+you can compare two variables of any type
+(both variables must be of the same type, though) as long as the operator > is defined for that type.
+*/
 #include <iostream>
 
 // Here we will create the template
 template <typename Type>
 Type ReturnMax(Type a, Type b) {
-   if(a > b) 
+   if(a > b)
        return a;
-   else 
+   else
        return b;
 }
 
