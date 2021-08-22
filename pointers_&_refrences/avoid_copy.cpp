@@ -5,8 +5,8 @@ using namespace std;
 
 int main()
 {
-  vector<string> vect{"I hate managers",
-                      "higher the manager position bigger their lies",
+  vector<string> vect{"Live with Gratitude",
+                      "The wound is the place where light enters you",
                     };
 
   //we avoid copy of whole string object by using reference.
